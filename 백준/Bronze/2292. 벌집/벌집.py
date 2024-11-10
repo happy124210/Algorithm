@@ -7,7 +7,4 @@ def Beehouse(N):
             break
 
 N = int(input())
-if N == 1:
-    print(1)
-else:
-    Beehouse(N)
+Beehouse(N)
